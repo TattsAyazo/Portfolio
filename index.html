@@ -1,539 +1,601 @@
 <!DOCTYPE html>
-  <html>
-  <head itemscope itemtype="http://schema.org/WebSite">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-    <title itemprop="name">Tatts Portfolio</title>
-    <meta name="Author" content="Tatts Ayazo Velez"><meta charset="utf-8">
-    <link href='css/screen.css' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-tatts-32.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-tatts-64.png">
-    <link rel="icon" type="image/png" sizes="128x128" href="/images/favicon-tatts-128.png">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tatiana Ayazo Velez — Brand Design + Art Direction</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-  </head>
-  <body>
-    <nav>
-      <div class="content-wrapper display-flex">
-        <h1 class="left-content">TATIANA <span class="new-line">AYAZO VELEZ</span></h1>
-        <ul class="right-content">
-          <li><a href= "/">Work</a></li>
-          <li><a href= "/personal-work">Personal</a></li>
-          <li><a href= "/resume">Resume</a></li>
-        </ul>
-      </div>
+  <!-- FLOATING HEADER (all pages) -->
+  <a href="about.html" class="site-floating-header" aria-label="Go to About page">
+    <h1 class="site-name">Tatiana Ayazo Velez</h1>
+    <p class="site-role">Brand Design + Art Direction</p>
+  </a>
+  <a href="#" class="floating-back" id="floating-back" aria-label="Back to home">← Back</a>
+
+  <!-- HOME / NAV VIEW -->
+  <div class="home" id="home">
+    <nav class="bands" id="bands">
+      <button class="band" data-project="google" style="--band-color:#2d7efa; --band-text:#000000;">
+        <span class="band-label">Google</span>
+      </button>
+      <button class="band" data-project="super-age" style="--band-color:#a4b9c4; --band-text:#000000;">
+        <span class="band-label">Super Age</span>
+      </button>
+      <button class="band" data-project="optimism" style="--band-color:#ffe600; --band-text:#000000;">
+        <span class="band-label">Optimism</span>
+      </button>
+      <button class="band" data-project="simple" style="--band-color:#f1f1f1; --band-text:#000000;">
+        <span class="band-label">Simple</span>
+      </button>
+      <button class="band" data-project="tangerine-dreams" style="--band-color:#fd7900; --band-text:#000000;">
+        <span class="band-label">Tangerine Dreams</span>
+      </button>
+      <button class="band" data-project="other-projects" style="--band-color:#000000; --band-text:#ffffff;">
+        <span class="band-label">Other Projects</span>
+      </button>
     </nav>
+  </div>
 
-    <div class="content-wrapper">
-      <hr/>
-    </div>
+  <!-- PROJECT VIEWS -->
+  <div class="project-view" id="project-super-age" data-color="#ffffff">
 
-
-    <section class="super age">
-      <div class="content-wrapper">
-        <img src="images/SA_tattst_tagline.jpg"/>
-
-        <div class="display-flex padded-content">
-          <div class="left-content inset-1-col vertical-align padded-content">
-
-              <h2><a href="https://superage.com/">Super Age</a></h2>
-              <p><em>Concepting & Brand Development</em></p>
-              <p>Super Age’s publication, “The Mindset”, redefines aging as a transformative journey, celebrating the wisdom, strength, and vitality  of aging.  
-                We envisioned a world where aging is celebrated as a journey of renewal and vitality. Through Super Age, we sought to reimagine the narrative around aging, drawing inspiration from Earth's timeless wisdom and resilience. We developed a brand identity and launched “The Mindset” publication to inspire and empower
-                individuals on their journey through life's natural stages.</p>
-              <p><strong> Role:</strong> Design Lead </p>
-              <p><strong> Deliverables:</strong> Design/Branding</p>
-              <p><a class="primarycta" href= "https://superage.com/">♡ More ♡</a></p>
-
-         </div>
-
-          <div class="right-content optional-padded-content">
-            <img src="images/sa_tatts_brand.jpg"/>
-          </div>
-        </div>
-
-         <div>
-        <img class="padded-content" src="images/SA-BRANDING2.jpg"/>
-      </div>
-    </div>
+    <!-- FULL BLEED HERO -->
+    <section class="sa-fullbleed">
+      <img class="sa-full-img" src="assets/hero.jpg" alt="Super Age hero — Super Age / Own Your Future">
     </section>
 
+    <div class="project-content sa-page sa-intro-content">
+      <header class="project-hero">
+        <p class="eyebrow">Wellness &amp; Longevity Brand</p>
+        <p class="client-note">Client work via Pardon.</p>
+        <h2 class="project-title">Super Age</h2>
+      </header>
 
-
-<!--
-    <section class="super age">
-      <div class="content-wrapper">
-        <img src="images/SA_tattst_tagline.jpg"/>
-
-        <div class="display-flex padded-content">
-
-          <div class="padded-content inset-1-col vertical-align">
-            <div class="left-content">
-              <h2><a href="https://superage.com/">Super Age</a></h2>
-              <p><em>Concepting & Brand Development</em></p>
-              <p>Super Age’s publication, “The Mindset”, redefines aging as a
-                transformative journey, celebrating the wisdom, strength, and
-                vitality of aging.   </p>
-                <p>We envisioned a world where aging is celebrated
-                as a journey of renewal and vitality. Through Super Age, we sought
-                to reimagine the narrative around aging, drawing inspiration from
-                Earth's timeless wisdom and resilience. We developed a brand identity
-                and launched “The Mindset” publication to inspire and empower individuals
-                on their journey through life's natural stages.<p/>
-              <p><strong> Role:</strong> Design Lead</p>
-              <p><strong> Deliverables:</strong>Design/Branding</p>
-            </div>
-         </div>
-
-          <div class="right-content padded-content">
-            <img class= "slide" src="images/sa_tatts_brand.jpg"/>
-          </div>
-
-      </div>
-     </div>
-        <img class="padded-content" src="images/SA-BRANDING2.jpg"/>
-  </section>
--->
-
-    <div class="content-wrapper">
-      <hr/>
-    </div>
-
-
-    <section class="simple">
-      <div class="content-wrapper">
-        <img src="images/Simple3_brandin_tatts.png"/>
-
-        <div class="display-flex padded-content">
-          <div class="left-content ">
-            <img class= "slide" src="images/Simple-rebrand_tatts_ayazo23.png"/>
-          </div>
-
-          <div class="right-content">
-            <div  class="vertical-align-center">
-              <h2><a href= "https://www.behance.net/gallery/189335795/Simple?share=1">Simple</a></h2>
-
-              <p><em>Concepting, Brand Strategy and Brand Evolution for Simple</em></p>
-              <p>We worked guiding &Simple through its brand evolution, aiming to encapsulate
-              its transition from a digital advisory service to a dynamic thought leader with
-              new offerings like in-person events and premium memberships.</p>
-              <p>My role was focused on refining Simple's identity to mirror these strategic expansions.
-                These involved spotlighting premium memberships and new initiatives, all while emphasizing
-                the brand’s dedication to fostering deeper human connections.</p>
-              <p><strong>Role:</strong> Design Lead</p>
-              <p><strong>Deliverables:</strong> Design/Branding</p>
-              <p><a class="primarycta" href="https://www.behance.net/gallery/189335795/Simple?share=1">♡ More ♡</a></p>
-            </div>
-          </div>
-      </div>
-
-      <div class="padded-content">
-        <img src="images/Simple_rebrand_tatts_ayazo14.png"/>
-      </div>
-    </div>
-
-  </section>
-
-
-      <div class="content-wrapper">
-        <hr/>
-      </div>
-
-
-      <section class="google">
-        <div class="content-wrapper">
-          <img src="images/google_tatiana_ayazo_illustration_1@2x.png"/>
-        </div>
-
-        <div class="display-flex">
-          <div class="left-content">
-            <img src="images/google_tatiana_ayazo_illustration_2@2x.png"/>
-          </div>
-
-          <div class="right-content">
-            <div class="vertical-align-center">
-              <h2><a href= "https://www.behance.net/gallery/163942375/Google-Sales-Mastery">Google</a></h2>
-              <p><em>Art Direction, Design Strategy, Prototyping and Illustration for E-learnings</em></p>
-              <p>As a graphic designer on Google's Sales Mastery team in New York, I played a key role in
-                creating digital illustrations and visual assets, including UX and UI prototyping and strategy.
-                My work contributed to a 60% surge in user registrations and a 35% increase in user satisfaction
-                for Google's e-learning courses. Collaborating with a team of five designers, we developed a
-                range of content from banners to merchandise and presentation templates, all while contributing
-                to <a href= "https://skillshop.withgoogle.com/">‘Skillshop’</a>,' Google's platform for free online training. This role allowed me to blend
-                creative design with strategy, significantly enhancing user experience and engagement across
-                various platforms.
-
-      </p>
-              <p><strong> Role:</strong> Visual Designer</p>
-              <p><strong> Deliverables:</strong> Design/Illustration</p>
-              <p><strong><a href= "https://skillshop.withgoogle.com/">Skillshop Website</a></strong></p>
-              <p><a class="primarycta" href= "https://www.behance.net/gallery/163942375/Google-Sales-Mastery">♡ More ♡</a></p>
-            </div>
-          </div>
-        </div>
-
-          <div class="content-wrapper padded-content">
-            <img src="images/google_tatiana_ayazo_illustration_3@2x.png"/>
-          </div>
-       </section>
-
-    <div class="content-wrapper">
-    <hr/>
-    </div>
-
-    <section class="optimism">
-      <div class="content-wrapper">
-        <img src="images/Optimism_tatts_1.jpg"/>
-
-        <div class="display-flex padded-content">
-          <div class="left-content">
-            <img src="images/optimismbranding24.png"/>
-          </div>
-
-          <div class="right-content optional-padded-content">
-             <div class="vertical-align-center">
-              <h2><a href="https://www.behance.net/gallery/188720859/Optimism">Optimism</a></h2>
-              <p><em>Concepting, Brand Development and Implementation</em></p>
-              <p>Our visual branding adopts a solar system metaphor, placing our main brand as the central sun,
-                with other associated brands orbiting as planets. This design concept creates a dynamic and
-                harmonious digital ecosystem, reflecting the breadth and potential of our digital presence.</p>
-                <p> My role in this ambitious project was to visually translate this ethos of optimism, creating a
-                  brand identity that embodied the mission of fostering a brighter, more hopeful web.
-                  The result was a branding that conveyed a sense of boundless space and possibility,
-                  mirroring the aspirational vision of 'Optimism'.</p>
-              <p><strong> Role:</strong> Design Lead</p>
-              <p><strong> Deliverables:</strong> Concepting/Brand Development</p>
-              <p><a class="primarycta" href= "https://www.behance.net/gallery/188720859/Optimism">♡ More ♡</a></p>
-            </div>
-          </div>
+      <div class="project-intro">
+        <p class="project-copy">
+          Super Age's publication, <em>"The Mindset,"</em> redefines aging as a transformative journey,
+          celebrating the wisdom, strength, and vitality of aging.
+          <br><br>
+          We envisioned a world where aging is celebrated as a journey of renewal and vitality. Through
+          Super Age, we sought to reimagine the narrative around aging, drawing inspiration from Earth's
+          timeless wisdom and resilience. We developed a brand identity and launched <em>"The Mindset"</em>
+          publication to inspire and empower individuals on their journey through life's natural stages.
+          <br><br>
+          Since launch, Super Age has grown to <strong>1M+ newsletter subscribers</strong> in under a
+          year, with a <strong>54% open rate</strong> — well above industry benchmarks — and a
+          <strong>9.8% CTOR</strong>. The brand has expanded from a digital publication into
+          in-person experiences, including longevity-focused Immersions, live conversations with
+          the Super Age Scientific Advisory Board, and the Super Age Games, the first in-person
+          longevity competition of its kind.
+        </p>
+        <div class="project-meta">
+          <p><strong>Role</strong><br>Design Lead</p>
+          <p><strong>Deliverables</strong><br>Concepting<br>Brand Development<br>Brand Strategy</p>
         </div>
       </div>
+
+    </div>
+
+    <section class="sa-fullbleed sa-concepts-block">
+      <p class="sa-caption-top">Initial concepts for the brand</p>
+      <img class="sa-full-img" src="assets/initial-concepts.jpg" alt="Initial mockup concepts for the Super Age brand">
     </section>
 
+    <!-- FULL BLEED FONT SELECTION -->
+    <section class="sa-fullbleed sa-fonts-block">
+      <p class="sa-caption-top">Initial type personalities</p>
+      <img class="sa-full-img sa-fonts-row-img" src="assets/font-row.png" alt="Super Age typeface treatment row">
+    </section>
 
-    <div class="content-wrapper">
-    <hr/>
-    </div>
+    <section class="sa-fullbleed">
+      <img class="sa-full-img" src="assets/font-selection.jpg" alt="Font Selection — Owners Typeface annotation">
+    </section>
 
-    <section class="the_discoverer">
-      <div class="content-wrapper">
-          <img src="images/Opener_the_discoverer_tatts_ayazo.png"/>
+    <!-- FULL BLEED LOGOMARK EXPLORATION -->
+    <section class="sa-fullbleed sa-logo-explore-block">
+      <img class="sa-full-img" src="assets/logo-exploration.jpg" alt="Logomark exploration — six directions">
+    </section>
 
+    <div class="project-content sa-page">
 
-        <div class="display-flex  inset-1-col padded-content">
-          <div class="left-content">
-            <h2><a href= "https://www.thediscoverer.com/">the discoverer</a></h2>
-            <p><em>Concepting, Brand strategy and End-to-end brand Development</em></p>
-              <p>In my role for the rebranding of 'The Discoverer', I led the evolution of the brand towards a
-                more engaging and visually striking identity, carefully maintaining its core essence.
-                My focus on striking a strategic balance between innovation and familiarity resulted in a
-                revitalized brand, significantly enhancing its approachability and consumer appeal.</p>
-              <p>I aimed to shift the brand language to a casual, conversational tone, complemented by
-                attention-grabbing visuals. Working with the Discoverer team, I helped apply this new brand
-                style across web, mobile, and social platforms. Envisioning brand's engagement levels
-                to a 40% increase across various platforms, indicating a higher level of resonance with our
-              target audience. </p>
-          <p><strong>Role:</strong> Senior Creative Designer</p>
-          <p><strong>Deliverables:</strong> Design/Branding & Email Design</p>
-          <p><a class="primarycta" href="https://www.behance.net/gallery/163947709/The-Discoverer">♡ More ♡</a></p>
-
-        </div>
-        <div class="right-content optional-padded-content">
-          <img src="images/The discoverer_tattsayazo.jpg"/>
-        </div>
-      </div>
-    </div>
-  </section>
-
-      <div class="content-wrapper">
-        <hr/>
-      </div>
-
-      <section class="allstate">
-        <div class="content-wrapper">
-          <img src="images/allstate_illo_tatts_ayazo3.png"/>
-
-          <div class="display-flex padded-content">
-            <div class="left-content">
-              <img src="images/allstate_illo_tatts_ayazo2.png"/>
-            </div>
-
-            <div class="right-content optional-padded-content">
-                <div class="vertical-align-center">
-                <h2><a href= "https://www.behance.net/gallery/189554513/Allstate-Illustration?">Allstate</a></h2>
-                <p><em>Concepting, Art Direction, Illustration and Brand Strategy</em></p>
-                <p>My role was pivotal in integrating Allstate's evolved branding into our illustrations. I focused
-                  on developing assets that embodied this new, user-friendly branding style. My contributions
-                  were centered around adapting and rolling out the fresh brand identity into clear, engaging
-                  illustrations for their instructional videos, thus ensuring consistency and enhancing their
-                  educational impact.</p>
-                <p><strong> Role:</strong> Designer/Illustrator</p>
-                <p><strong> Deliverables:</strong> Storyboard for videos/Illustration</p>
-                <p><a class="primarycta" href= "https://www.behance.net/gallery/189554513/Allstate-Illustration?">♡ More ♡</a></p>
-            </div>
-          </div>
-        </div>
-    </div>
+      <section class="sa-section sa-logomark">
+        <img class="sa-block-img sa-logomark-img" src="assets/logomark.png" alt="Final Super Age logomark selection">
+        <p class="sa-caption-top" style="margin-top:16px;">Logomark</p>
+        <p class="sa-quote" style="margin-top:56px;">
+          This symbol captures this timeless rhythm, reminding us that each moment is
+          <em>part of a much larger cycle.</em> "Super Age" is one of these fleeting yet transformative
+          phases — a stage of life where renewal, growth, and vitality intersect. Just like the Lissajous
+          curve, <em>we are shaped by time's flow, always in motion, always part of the greater ceaseless journey of life.</em>
+        </p>
       </section>
 
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/national-cards.jpg" alt="Super Age brand application postcards">
+        <p class="sa-caption">
+          The color and photography of the brand embraces the deep relationship between humans and
+          nature, drawing inspiration from four natural ecosystems: forests, peaks, deserts, and reefs.
+        </p>
+      </section>
 
-    <div class="content-wrapper">
-      <hr/>
-    </div>
-<!--
-    <section class="creative_services">
-      <div class="content-wrapper">
-        <img src="images/creative_services_tatts_10.png"/>
-
-        <div class="display-flex padded-content">
-          <div class="left-content">
-            <img src="images/creativeservices_tatiana_ayazo_branding_2@2x.png"/>
-          </div>
-
-          <div class="right-content padded-content inset-1-col vertical-align">
-            <h2><a href= "https://www.behance.net/gallery/163857501/Creative-Services">Creative Services</a></h2>
-
-            <p><em>Concepting, Brand Strategy and Brand Development</em></p>
-            <p>The visual branding for our internal studio team underwent a transformation to embody the dynamic and
-              evolving nature of the creative process. By incorporating diverse elements such as shapes, textures, glyphs,
-              and photography, we captured the intricate journey of creative exploration and execution.</p>
-              <p>This revitalized visual branding had a profound impact on our team. It sparked a renewed sense of inspiration
-              and creativity among team members, leading to a 30% increase in collaborative ideation and a 25% rise in overall
-              productivity. The visual elements we implemented served as constant reminders of the complexity and beauty of the
-              creative journey, fostering a more vibrant and motivated work environment.
-              The new visual branding has not only improved our collective mindset but also added a sense of cohesion and
-              purpose to our work, resulting in outstanding outcomes and a stronger sense of team identity.
-            </p>
-            <p><strong>Role:</strong> Senior Creative Designer</p>
-            <p><strong>Deliverables:</strong> Design/Branding</p>
-            <p><a class="primarycta" href="https://www.behance.net/gallery/163857501/Creative-Services">♡ More ♡</a></p>
-
-            <img class="padded-content" src="images/creative_services_branding_8.png"/>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="content-wrapper">
-      <hr/>
-    </div>
--->
-<!--
-    <section class="kurated">
-      <div class="content-wrapper">
-        <img src="images/kurated_tatiana_ayazo_branding_1@2x.png"/>
-
-        <div class="display-flex inset-1-col padded-content">
-          <div class="left-content">
-            <img src="images/kurated_tatiana_ayazo_branding_2@2x.png"/>
-          </div>
-
-          <div class="right-content inset-1-col optional-padded-content">
-            <div class="vertical-align-center">
-              <h2><a href= "https://www.behance.net/gallery/163953693/Kurated">kurated</a></h2>
-              <p><em>Branding for a blog-centric brand featuring product recommendations</em><p>
-              <p>Kurated is a Likemind brand concept focused on the curation of physical products.
-                We developed a visual language for an email module to cross pollinate with other
-                existing brands of the ecosystem, and leveraged our data around top-performing
-                content to inform product selections. This gave us confidence in knowing which
-                products our users would love and allowed us to accurately feature relevant product recommendations.
-
-</p>
-              <p><strong>Role:</strong> Senior Creative Designer</p>
-              <p><strong>Deliverables:</strong> Design/Branding</p>
-              <p><a class="primarycta" href= "https://www.behance.net/gallery/163953693/Kurated">♡ More ♡</a></p>
-            </div>
-          </div>
-        </div>
-
-        <img class="padded-content" src="images/kurated_tatiana_ayazo_branding.jpg"/>
-      </div>
-    </section>
-
-    <div class="content-wrapper">
-      <hr/>
     </div>
 
-    <section class="the_wonder">
-      <div class="content-wrapper">
-        <img src="images/thewonder_tatiana_ayazo_branding_1.png"/>
-
-        <div class="display-flex inset-1-col padded-content">
-          <div class="left-content">
-            <h2><a href= "https://www.thewonder.com/">the wonder</a></h2>
-            <p><em>Concepting, Brand Strategy and End-to-end Brand Development</em></p>
-              <p>The Wonder is an email newsletter brand spreading fascinating content from around the web.
-                Each edition is curated and written by members of <strong><a href= "https://www.likemind.com/">Likemind’s</a></strong>
-                in-house editorial team.We were tasked with creating a new brand strategy and end-to-end ideation.
-              </p>
-              <p>
-                Staying true to the mother brand tagline "Expanding perspectives" we wanted to capture and provoke
-                that sense of wonder. There was an influence of sacred geometry and Bruno Munari ideals of geometrical
-                shapes where squares, circles and triangles exist in the magical tiny corners of the world that often
-                go unnoticed. The outcome of our work was an engaging, emotive brand image that provokes curiosity and
-                exploration in a lighthearted and inclusive way.
-
-</p>
-            <p><strong>Role:</strong> Senior Creative Designer</p>
-            <p><strong> Deliverables:</strong> Design/Branding & Email Design</p>
-            <p><a class="primarycta" href= "https://www.behance.net/gallery/163858033/The-Wonder">♡ More ♡</a></p>
-
-          </div>
-
-          <div class="right-content optional-padded-content">
-            <img src="images/thewonder_tatiana_ayazo_branding3.png"/>
-          </div>
-        </div>
-
-        <img class="padded-content" src="images/the-wonder_tatts_ayazo_6.png"/>
-      </div>
+    <section class="sa-fullbleed">
+      <p class="sa-caption-top">Brand vibe</p>
+      <img class="sa-full-img" src="assets/brand-vibe.jpg" alt="Brand vibe — mood photography, logomark, and color palette">
     </section>
 
-        <div class="content-wrapper">
-          <hr/>
+    <div class="project-content sa-page">
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/splash-mock-2.png" alt="The Mindset newsletter splash page mockup">
+        <p class="sa-caption-top" style="margin-top:16px;">Splash page</p>
+      </section>
+
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/billboard.jpg" alt="Super Age billboard mockup">
+      </section>
+
+      <section class="sa-section">
+        <div class="sa-events-grid">
+          <img src="assets/event-1.jpg" alt="Super Age Cal Tri 2025 event photo">
+          <img src="assets/event-2.jpg" alt="Super Age Cal Tri 2025 event photo">
         </div>
--->
-    <section class="readers-digest">
-      <div class="content-wrapper">
-        <div class="display-flex inset-1-col">
+        <p class="sa-caption-top" style="margin-top:24px;">Super Age live events</p>
+      </section>
 
-          <div class="left-content">
-            <h2><a href= "https://www.behance.net/gallery/63939927/Readers-Digest-supermarket-secrets-March-issue">reader's digest</a></h2>
-            <p><em>Redesign, Illustration and Development of Brand book for their Digital Presence</em></p>
-            <p>As part of the project to enhance Readers Digest's website content and refresh their visual materials,
-              we achieved significant results while adhering to the RD brand guidelines. Through my design efforts, we successfully
-              increased site traffic and successfully attracted a younger audience demographic. The implementation of our
-              redesigned visual materials led to a 45% increase in page views and a 30% rise in the average time spent on
-              the website by users under the age of 35.
-              In addition to the website, I also contributed to the printed designs for select issues, notably
-              the "40 Supermarket Secrets" cover story and inner pages of the Reader's Digest March issue in 2018.
-              The collaboration with the art director, photographer, and in-house team ensured that our work remained
-              faithful to the RD brand guidelines, resulting in a 20% surge in newsstand sales for the March issue.
-            </p>
-            <p><strong> Role:</strong> Senior Visual Designer</p>
-            <p><strong> Deliverables:</strong> Design/Illustration</p>
-            <p><a class="primarycta" href= "https://www.behance.net/gallery/63939927/Readers-Digest-supermarket-secrets-March-issue">♡ More ♡</a></p>
-
-        </div>
-
-
-          <div class="right-content optional-padded-content">
-            <img src="images/readersdigest_tatiana_ayazo_1@2x.png"/>
-          </div>
-        </div>
-
-        <div class="display-flex padded-content">
-          <div class="left-content">
-            <img src="images/readersdigest_tatiana_ayazo_2@2x.png"/>
-          </div>
-          <div class="right-content padded-content">
-            <img src="images/readersdigest_tatiana_ayazo_3@2x.png"/>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="content-wrapper">
-      <hr/>
     </div>
 
-    <section class="juno">
-      <div class="content-wrapper">
-        <img src="images/juno_tatiana_ayazo_illustration_5.png"/>
-
-        <div class="display-flex inset-1-col padded-content">
-          <div class="left-content">
-            <div class="vertical-align-center">
-              <h2><a href="https://www.behance.net/gallery/163861671/Juno">Juno</a></h2>
-              <p><em>Concepting, Illustration and Brand Strategy</em></p>
-              <p>As a designer and illustrator for a family health resources brand in the UK, I had the privilege of working on Juno,
-                a mobile app that connected moms directly with expertly qualified midwives and paediatricians. Our goal was to
-                provide a seamless and reliable platform for maternal support.
-                Through our designs and illustrations, we achieved remarkable results. The user engagement on the Juno app increased
-                by 50%, indicating a high level of interest and satisfaction among moms seeking expert advice and support.
-                Moreover, our efforts in connecting moms to midwives contributed to a 40% decrease in maternal anxiety levels reported by app users.<p/>
-              <p><strong> Role:</strong> Designer and Illustrator</p>
-              <p><strong> Deliverables:</strong> Design/Illustration/Infographics</p>
-              <p><a class="primarycta" href= "https://www.behance.net/gallery/163861671/Juno">♡ More ♡</a></p>
-            </div>
-          </div>
-
-          <div class="right-content optional-padded-content">
-            <img src="images/juno_branding_postcard.jpg"/>
-          </div>
-        </div>
-
-        <img class="padded-content" src="images/juno_tatiana_ayazo_illustration_8.png"/>
-      </div>
-    </section>
-
-
-    <div class="content-wrapper">
-      <hr/>
-    </div>
-
-    <section class="about-me">
-      <div class="content-wrapper display-flex">
-        <div class="left-content">
-          <img src="images/tatiana_ayazo_about_me.png"/>
-        </div>
-
-        <div class="right-content optional-padded-content">
-          <h2>About me ☺</h2>
-          <p>Straight out of Medellín, Colombia, where the coffee is as strong as the spirit, I bring a
-            bit of that Colombian magic to my work. I'm all about keeping it real – no capes or
-            design superhero stunts here. Just an honest-to-goodness creator who loves bouncing ideas
-            off people as inspiring as a caffeine-fueled brainstorming session.</p>
-
-            <p>Working with folks who light up my creative bulbs? That's my jam. I'm on a mission to make
-            cool stuff with the planet's most awesome creatives, turning our collective daydreams into
-            show-stopping designs. Sure, I might not be the flashiest designer in the room (unless we're
-            talking about my sneaker collection), but hey, I'm all for creating designs that pack a punch.</p>
-            <p>So, who am I? Think of me as that friend who's always got a quirky story to tell, sneakers
-              laced up for the next adventure, and a heart full of soulful magic. I'm the gal turning
-              everyday moments into epic design tales – all with a flavor that's bold, a touch zesty, and
-              100% unfiltered – kind of like that first morning coffee, Colombian style.</p>
-        </div>
-      </div>
-    </section>
-
-    <div class="content-wrapper">
-      <hr/>
-    </div>
-
-    <section class="circulation-links">
-      <div class="content-wrapper display-flex">
-        <div class="left-content">
-          <a href= "/personal-work"><h2>Personal work</h2></a>
-        </div>
-
-        <div class="right-content">
-          <a href= "resume"><h2>Resume</h2></a>
-        </div>
-      </div>
-    </section>
-
-    <div class="content-wrapper">
-      <hr/>
-    </div>
-
-    <footer>
-      <div class="content-wrapper display-flex">
-        <div class="left-content">
-          <h2>Want to work together?</h2>
-        </div>
-
-        <div class="right-content">
-          <h2>Contact</h2>
-          <p>ayazotatts@gmail.com</p>
-        </div>
-      </div>
+    <footer class="site-footer">
+      <p class="footer-name">Tatiana Ayazo Velez</p>
+      <p class="footer-role">Brand Design + Art Direction</p>
+      <nav class="footer-links">
+        <a href="about.html">About</a>
+      </nav>
     </footer>
+  </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="../js/animations.js"></script>
+  <div class="project-view" id="project-optimism" data-color="#ffffff">
 
-  </body>
+    <!-- FULL BLEED HERO -->
+    <section class="sa-fullbleed">
+      <img class="sa-full-img" src="assets/optimism/hero.jpg" alt="Optimism — Building a brighter web">
+    </section>
+
+    <div class="project-content sa-page sa-intro-content">
+      <header class="project-hero">
+        <p class="eyebrow">Media &amp; Technology Brand</p>
+        <p class="client-note">Client work via Pardon.</p>
+        <h2 class="project-title">Optimism</h2>
+      </header>
+
+      <div class="project-intro">
+        <p class="project-copy">
+          Optimism is the well-being platform behind a portfolio of flagship inbox-first brands —
+          including Super Age, All Healthy, and Ageist — connecting expertise from the inbox to the
+          web to real life through live events, immersions, and community experiences.
+          <br><br>
+          We built the brand identity to hold that structure together: one platform, one visual
+          language, flexible enough to house distinct publications while keeping the throughline of
+          optimism — grounded, not naive — legible across every touchpoint. All Healthy alone reaches
+          1.3M+ daily readers.
+        </p>
+        <div class="project-meta">
+          <p><strong>Role</strong><br>Design Lead</p>
+          <p><strong>Deliverables</strong><br>Concepting<br>Brand Development<br>Brand Strategy</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="sa-fullbleed sa-concepts-block">
+      <p class="sa-caption-top">Initial concepts for the brand</p>
+      <img class="sa-full-img" src="assets/optimism/initial-concepts.jpg" alt="Initial mockup concepts for the Optimism brand">
+    </section>
+
+    <!-- FULL BLEED FONT SELECTION -->
+    <section class="sa-fullbleed sa-fonts-block">
+      <p class="sa-caption-top">Initial type personalities</p>
+      <img class="sa-full-img sa-fonts-row-img" src="assets/optimism/type-personalities.png" alt="Optimism typeface treatment row">
+    </section>
+
+    <section class="sa-fullbleed">
+      <img class="sa-full-img" src="assets/optimism/font-selection.png" alt="Font Selection — The Future annotation">
+    </section>
+
+    <!-- FULL BLEED LOGOMARK EXPLORATION -->
+    <section class="sa-fullbleed sa-logo-explore-block">
+      <img class="sa-full-img" src="assets/optimism/logo-exploration.jpg" alt="Logomark exploration — six directions">
+    </section>
+
+    <div class="project-content sa-page">
+
+      <section class="sa-section sa-logomark">
+        <img class="sa-block-img sa-logomark-img" src="assets/optimism/logomark-construction.png" alt="Optimism logomark construction">
+        <p class="sa-caption-top" style="margin-top:16px;">Logomark</p>
+      </section>
+
+      <section class="sa-section">
+        <p class="sa-caption-top">Applications</p>
+        <img class="sa-block-img" src="assets/optimism/postcard-tile.jpg" alt="Optimism brand application postcards">
+      </section>
+
+    </div>
+
+    <section class="sa-fullbleed">
+      <img class="sa-full-img" src="assets/optimism/brand-vibe.jpg" alt="Optimism brand vibe — mood, typography, and motion">
+      <p class="sa-caption-top" style="margin-top:16px;">Brand vibe</p>
+    </section>
+
+    <div class="project-content sa-page" style="padding-top:0; padding-bottom:0;">
+      <section class="sa-section" style="margin:48px 0;">
+        <img class="sa-block-img" src="assets/optimism/phone-mocks.png" alt="Newsletter subscribe patterns across Collé, Super Age, and All Healthy">
+        <p class="sa-caption-top" style="margin-top:16px;">Brands that make up the ecosystem</p>
+      </section>
+    </div>
+
+    <div class="project-content sa-page">
+      <section class="sa-section" style="margin-top:96px;">
+        <div class="sa-events-grid">
+          <img src="assets/optimism/event-1.jpg" alt="Optimism activation event photo">
+          <img src="assets/optimism/event-2.jpg" alt="Optimism activation event photo">
+        </div>
+        <p class="sa-caption-top" style="margin-top:24px;">Optimism live activations</p>
+      </section>
+
+    </div>
+
+    <footer class="site-footer">
+      <p class="footer-name">Tatiana Ayazo Velez</p>
+      <p class="footer-role">Brand Design + Art Direction</p>
+      <nav class="footer-links">
+        <a href="about.html">About</a>
+      </nav>
+    </footer>
+  </div>
+
+  <div class="project-view" id="project-simple" data-color="#f1f1f1">
+
+    <!-- FULL BLEED HERO -->
+    <section class="sa-fullbleed">
+      <img class="sa-full-img" src="assets/simple/hero.jpg" alt="Simple — Simple solutions for complex times">
+    </section>
+
+    <div class="project-content sa-page sa-intro-content">
+      <header class="project-hero">
+        <p class="eyebrow">Media &amp; Knowledge Platform</p>
+        <p class="client-note">Concept work for Simple via Pardon — proposed rebrand, not implemented.</p>
+        <h2 class="project-title">Simple</h2>
+      </header>
+
+      <div class="project-intro">
+        <p class="project-copy">
+          Simple is the leading independent provider of knowledge, data, and access for the next
+          generation of family offices — connecting them with experts and best-in-class suppliers
+          across the ecosystem.
+          <br><br>
+          We developed a brand built on clarity: a refined ampersand-derived mark and a
+          restructured wordmark, designed to bring simplicity and confidence to a famously
+          complex world.
+        </p>
+        <div class="project-meta">
+          <p><strong>Role</strong><br>Design Lead</p>
+          <p><strong>Deliverables</strong><br>Concepting<br>Brand Development<br>Brand Strategy</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="sa-fullbleed sa-concepts-block sa-concepts-block--simple">
+      <p class="sa-caption-top">Initial concepts for the brand</p>
+      <img class="sa-full-img" src="assets/simple/initial-concepts.jpg" alt="Initial mockup concepts for the Simple brand">
+    </section>
+
+    <!-- FULL BLEED TYPE PERSONALITIES -->
+    <section class="sa-fullbleed sa-fonts-block">
+      <p class="sa-caption-top">Initial type personalities</p>
+      <img class="sa-full-img sa-fonts-row-img" src="assets/simple/type-personalities.png" alt="Simple typeface treatment row">
+    </section>
+
+    <section class="sa-fullbleed">
+      <img class="sa-full-img" src="assets/simple/font-selection.png" alt="Wordmark structural refinement annotation">
+    </section>
+
+    <div class="project-content sa-page">
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/simple/wordmark-rework.png" alt="Simple wordmark before and after rework">
+      </section>
+    </div>
+
+    <section class="sa-fullbleed sa-white-block">
+      <img class="sa-full-img" src="assets/simple/ampersands-study.png" alt="Ampersand study — refining the symbol at the heart of the mark">
+      <p class="sa-caption" style="margin-top:24px;">
+        We studied a range of ampersand directions to see whether a new symbol could better fit
+        the concept, but ultimately kept the existing mark for brand recognition — refining it into
+        a more geometric, elevated version of itself.
+      </p>
+    </section>
+
+    <!-- FULL BLEED LOGOMARK EXPLORATION -->
+    <section class="sa-fullbleed sa-logo-explore-block">
+      <img class="sa-full-img" src="assets/simple/logo-exploration.jpg" alt="Logomark exploration — six directions">
+    </section>
+
+    <div class="project-content sa-page" style="padding-top:0; padding-bottom:0;">
+
+      <section class="sa-section sa-logomark" style="padding:250px 0; margin-bottom:0;">
+        <img class="sa-block-img" src="assets/simple/logomark-construction.png" alt="Simple logomark construction and refinement">
+      </section>
+    </div>
+
+    <section class="sa-fullbleed">
+      <p class="sa-caption-top">Brand vibe</p>
+      <img class="sa-full-img" src="assets/simple/brand-vibe.png" alt="Simple brand vibe — mood, texture, and color">
+    </section>
+
+    <div class="project-content sa-page" style="padding-top:0;">
+      <section class="sa-section" style="margin-top:96px;">
+        <img class="sa-block-img sa-simple-splash-img" src="assets/simple/splash-mock.png" alt="Simple newsletter and app mockup">
+      </section>
+
+      <section class="sa-section">
+        <img class="sa-block-img sa-simple-laptop-img" src="assets/simple/laptop-mock.png" alt="Simple website mockup">
+      </section>
+
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/simple/billboard.jpg" alt="Simple billboard application in Amsterdam">
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <p class="footer-name">Tatiana Ayazo Velez</p>
+      <p class="footer-role">Brand Design + Art Direction</p>
+      <nav class="footer-links">
+        <a href="about.html">About</a>
+      </nav>
+    </footer>
+  </div>
+
+  <div class="project-view" id="project-google" data-color="#ffffff">
+
+    <div class="project-content sa-page sa-google-hero-content">
+      <section class="sa-section sa-google-hero">
+        <img class="sa-block-img" src="assets/google/hero-mastery.png" alt="Illustration of a woman working from home, part of the Skillshop visual system">
+      </section>
+    </div>
+
+    <div class="project-content sa-page sa-intro-content" style="padding-top:0;">
+      <header class="project-hero">
+        <p class="eyebrow">Technology Company</p>
+        <h2 class="project-title">Google</h2>
+      </header>
+
+      <div class="project-intro">
+        <p class="project-copy">
+          Created digital illustrations and visual assets for Google's e-learning courses,
+          including UX and UI prototyping and strategy following the rollout of a new style
+          guide. Collaborated with the team to develop a diverse array of visual assets for
+          digital and print, alongside contributions to "Skillshop," Google's online training
+          platform.
+          <br><br>
+          Google's Sales Mastery program focused on enhancing sales skills through tailored
+          e-learning resources. Delivered <strong>1,000+ visual assets annually</strong> —
+          illustrations, templates, and course graphics — across hundreds of courses a year,
+          contributing to a <strong>10% increase in learner engagement</strong> and
+          <strong>5% revenue growth</strong> for Google's sales organization.
+        </p>
+        <div class="project-meta">
+          <p><strong>Role</strong><br>Visual Designer</p>
+          <p><strong>Deliverables</strong><br>Concepting<br>Brand Development<br>Brand Roll out</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-content sa-page">
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/google/brand-book-tile.png" alt="Google Mastery brand guideline pages — illustration style, color usage, and metaphor examples">
+      </section>
+    </div>
+
+    <div class="project-content sa-page">
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/google/hero.png" alt="Google Mastery Team illustration — figure walking beside a wave of foliage">
+      </section>
+
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/google/characters.png" alt="Diverse character lineup illustrated for the Google Mastery brand">
+      </section>
+
+      <section class="sa-section">
+        <p class="sa-caption-top">Applications</p>
+        <img class="sa-block-img" src="assets/google/mastery-lander.png" alt="Google Skillshop landing page mockup on laptop">
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <p class="footer-name">Tatiana Ayazo Velez</p>
+      <p class="footer-role">Brand Design + Art Direction</p>
+      <nav class="footer-links">
+        <a href="about.html">About</a>
+      </nav>
+    </footer>
+  </div>
+
+  <div class="project-view" id="project-tangerine-dreams" data-color="#ffffff">
+
+    <!-- FULL BLEED HERO -->
+    <section class="sa-fullbleed">
+      <img class="sa-full-img" src="assets/tangerine/hero.jpg" alt="Tangerine Dreams exhibition installation — orange wall graphic with gallery visitors">
+    </section>
+
+    <div class="project-content sa-page sa-intro-content">
+      <header class="project-hero">
+        <p class="eyebrow">Exhibition Brand Identity</p>
+        <p class="client-note">Client work via Pardon.</p>
+        <h2 class="project-title">Tangerine Dreams</h2>
+      </header>
+
+      <div class="project-intro">
+        <p class="project-copy">
+          Tangerine Dreams is a group exhibition celebrating the collaborative relationship
+          between artist Mario Zoots and collector Nicholas Pardon. Known for his distinctive
+          collage work primarily on paper, Zoots expands his practice here as a lens-based
+          artist working with cultural fragments that honor and update conventional collage
+          methods.
+          <br><br>
+          The identity carries that spirit through the show — a bold tangerine field paired with
+          a vintage-inflected display serif, rolled out across signage, environmental graphics,
+          invitations, and merchandise. Presented by Pardon.
+        </p>
+        <div class="project-meta">
+          <p><strong>Role</strong><br>Art Direction + Design</p>
+          <p><strong>Deliverables</strong><br>Concepting<br>Environmental Graphics<br>Collateral &amp; Merch<br>Brand Roll out</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="sa-fullbleed sa-tangerine-concepts-block">
+      <p class="sa-caption-top" style="padding-top:56px;">Initial concepts</p>
+      <img class="sa-full-img" src="assets/tangerine/initial-concepts.png" alt="Tangerine Dreams initial concepting — six wordmark and layout directions">
+    </section>
+
+    <div class="project-content sa-page">
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/tangerine/postcard-tile.png" alt="Tangerine Dreams applications — event signage, postcards, and merchandise">
+      </section>
+
+      <section class="sa-section">
+        <img class="sa-block-img" src="assets/tangerine/postcard-mock.png" alt="Tangerine Dreams event invitation postcard mockup">
+      </section>
+
+      <section class="sa-section sa-events-grid">
+        <figure class="sa-events-grid-item">
+          <img src="assets/tangerine/wall-graphics.jpg" alt="Tangerine Dreams environmental wall graphics — cut orange shapes">
+          <figcaption class="sa-caption-top" style="margin-top:12px;">Mario Zoots pieces</figcaption>
+        </figure>
+        <figure class="sa-events-grid-item">
+          <img src="assets/tangerine/gallery-detail.jpg" alt="Tangerine Dreams gallery signage detail">
+          <figcaption class="sa-caption-top" style="margin-top:12px;">Manifestation of the concept</figcaption>
+        </figure>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <p class="footer-name">Tatiana Ayazo Velez</p>
+      <p class="footer-role">Brand Design + Art Direction</p>
+      <nav class="footer-links">
+        <a href="about.html">About</a>
+      </nav>
+    </footer>
+  </div>
+
+  <div class="project-view" id="project-other-projects" data-color="#ffffff">
+    <div class="project-content">
+      <div class="op-intro">
+        <h2 class="project-title op-intro-title">Other Projects</h2>
+        <p class="project-copy op-intro-copy">
+          This is a compilation of works that hasn't seen the light of day — personal projects,
+          explorations, and freelance pieces I've worked on. Hopefully, this gives a glimpse into
+          different types of projects, creative directions, and ideas I've explored simply for fun.
+        </p>
+      </div>
+
+      <div class="op-grid">
+        <a class="op-tile" href="https://www.behance.net/gallery/189554513/Allstate-Illustration" target="_blank" rel="noopener">
+          <img src="assets/other-projects/all-state-illustration.jpg" alt="Allstate Illustration">
+          <div class="op-overlay">
+            <h3>Allstate Illustration</h3>
+            <p>Concepting, illustration, and brand implementation for Allstate's instructional insurance video series.</p>
+          </div>
+        </a>
+        <a class="op-tile" href="https://www.behance.net/gallery/63939927/Readers-Digest-supermarket-secrets-March-issue" target="_blank" rel="noopener">
+          <img src="assets/other-projects/readers-digest.jpg" alt="Reader's Digest">
+          <div class="op-overlay">
+            <h3>Reader's Digest</h3>
+            <p>Editorial illustration for Reader's Digest's "Supermarket Secrets" feature.</p>
+          </div>
+        </a>
+        <a class="op-tile" href="https://www.behance.net/gallery/163857501/Creative-Services" target="_blank" rel="noopener">
+          <img src="assets/other-projects/creative-services.jpg" alt="Creative Services">
+          <div class="op-overlay">
+            <h3>Creative Services</h3>
+            <p>Visual identity refresh for an internal creative studio — shapes, textures, and photography that lifted collaborative ideation 30% and productivity 25%.</p>
+          </div>
+        </a>
+        <div class="op-tile">
+          <img src="assets/other-projects/retrospect.jpg" alt="Retrospect">
+          <div class="op-overlay">
+            <h3>Retrospect</h3>
+            <p>Poster design for a New Projects group show.</p>
+          </div>
+        </div>
+        <a class="op-tile" href="https://www.behance.net/gallery/163861995/Fuego-CON" target="_blank" rel="noopener">
+          <img src="assets/other-projects/fuego-con.jpg" alt="Fuego Con">
+          <div class="op-overlay">
+            <h3>Fuego Con</h3>
+            <p>Visual identity for an internal creativity conference, built around fire as a metaphor for the spark of a new idea.</p>
+          </div>
+        </a>
+        <a class="op-tile" href="https://www.behance.net/gallery/163861671/Juno" target="_blank" rel="noopener">
+          <img src="assets/other-projects/juno.jpg" alt="Juno">
+          <div class="op-overlay">
+            <h3>Juno</h3>
+            <p>Brand illustration and UI for Juno, a maternal health app connecting moms with midwives — a 50% lift in engagement and a 40% drop in reported anxiety.</p>
+          </div>
+        </a>
+        <a class="op-tile" href="https://www.newprojects.com/" target="_blank" rel="noopener">
+          <img src="assets/other-projects/new-projects.jpg" alt="New Projects">
+          <div class="op-overlay">
+            <h3>New Projects</h3>
+            <p>Brand identity for New Projects, a creative collective and event platform.</p>
+          </div>
+        </a>
+        <div class="op-tile">
+          <img src="assets/other-projects/future-of-collage.jpg" alt="The Future of Collage">
+          <div class="op-overlay">
+            <h3>The Future of Collage</h3>
+            <p>Branding concept for a possible collage arts publication.</p>
+          </div>
+        </div>
+        <a class="op-tile" href="https://www.behance.net/gallery/163858033/The-Wonder" target="_blank" rel="noopener">
+          <img src="assets/other-projects/the-wonder.jpg" alt="The Wonder">
+          <div class="op-overlay">
+            <h3>The Wonder</h3>
+            <p>Concepting and brand strategy for Likemind's email newsletter — sacred geometry meets Bruno Munari, built to spark curiosity.</p>
+          </div>
+        </a>
+        <a class="op-tile" href="https://www.behance.net/gallery/36612165/PSYCHOTROPICAL-ROOTS" target="_blank" rel="noopener">
+          <img src="assets/other-projects/roots.jpg" alt="Psychotropical Roots">
+          <div class="op-overlay">
+            <h3>Psychotropical Roots</h3>
+            <p>A psychotropical collage exploring identity and heritage.</p>
+          </div>
+        </a>
+        <div class="op-tile">
+          <img src="assets/other-projects/collage-inc.jpg" alt="Collage Inc">
+          <div class="op-overlay">
+            <h3>Collage Inc</h3>
+            <p>Typographic brand exploration for a collage studio.</p>
+          </div>
+        </div>
+        <div class="op-tile">
+          <img src="assets/other-projects/grand-food.jpg" alt="Grand Food">
+          <div class="op-overlay">
+            <h3>Grand Food</h3>
+            <p>Illustrated artwork inspired by grandmother's cookbook traditions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <p class="footer-name">Tatiana Ayazo Velez</p>
+      <p class="footer-role">Brand Design + Art Direction</p>
+      <nav class="footer-links">
+        <a href="about.html">About</a>
+      </nav>
+    </footer>
+  </div>
+
+<script src="script.js"></script>
+</body>
 </html>
