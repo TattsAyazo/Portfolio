@@ -239,6 +239,18 @@ body.on-inner .floating-back {
   margin-bottom: 4px;
 }
 
+.project-meta a {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(0,0,0,0.3);
+  transition: text-decoration-color 0.2s ease;
+}
+
+.project-meta a:hover {
+  text-decoration-color: rgba(0,0,0,0.9);
+}
+
 .placeholder-copy {
   color: rgba(0,0,0,0.5);
 }
@@ -363,6 +375,35 @@ body.on-inner .floating-back {
   margin: 0 auto;
 }
 
+.sa-optimism-logomark-img {
+  width: 960px;
+}
+
+.sa-optimism-media,
+.sa-media-block {
+  width: 100%;
+  margin-bottom: 80px;
+  padding: 0 clamp(20px, 4vw, 64px);
+  box-sizing: border-box;
+}
+
+.sa-optimism-media-el,
+.sa-media-block-el {
+  width: 100%;
+  max-width: 1147px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.sa-optimism-stack,
+.sa-media-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .sa-events-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -380,6 +421,15 @@ body.on-inner .floating-back {
 @media (max-width: 720px) {
   .sa-events-grid { grid-template-columns: 1fr 1fr; }
   .sa-logomark-img { width: 320px; }
+
+  /* Tighten vertical rhythm between images on mobile only */
+  .sa-fullbleed { margin-bottom: 40px; }
+  .sa-section { margin-bottom: 48px; }
+  .project-content { padding-bottom: 48px; }
+  .sa-white-block { padding-bottom: 32px; }
+  .sa-tangerine-concepts-block { padding-bottom: 32px; }
+  .sa-google-hero { padding: 24px 0 32px; }
+  .sa-logomark { padding: 80px 0 !important; }
 }
 
 /* ---------- OTHER PROJECTS GRID ---------- */
