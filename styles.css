@@ -4,6 +4,14 @@
   --font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --transition-speed: 0.55s;
   --transition-ease: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Large section-gap scale — redefined smaller on mobile below */
+  --gap-3xl: 250px;
+  --gap-2xl: 200px;
+  --gap-xl: 176px;
+  --gap-lg: 150px;
+  --gap-md: 96px;
+  --gap-caption-end: 80px;
 }
 
 * { box-sizing: border-box; }
@@ -267,6 +275,7 @@ body.on-inner .floating-back {
   color: rgba(0,0,0,0.45);
   text-align: center;
   margin: 0 0 24px;
+  padding: 0 20px;
 }
 
 .sa-caption-inverse {
@@ -275,6 +284,7 @@ body.on-inner .floating-back {
   color: rgba(255,255,255,0.5);
   text-align: center;
   margin: 0 0 32px;
+  padding: 0 20px;
 }
 
 .sa-caption {
@@ -285,6 +295,8 @@ body.on-inner .floating-back {
   max-width: 640px;
   margin: 20px auto 0;
   text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .sa-quote {
@@ -294,6 +306,8 @@ body.on-inner .floating-back {
   text-align: center;
   max-width: 720px;
   margin: 32px auto 0;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .sa-quote em {
@@ -429,7 +443,22 @@ body.on-inner .floating-back {
   .sa-white-block { padding-bottom: 32px; }
   .sa-tangerine-concepts-block { padding-bottom: 32px; }
   .sa-google-hero { padding: 24px 0 32px; }
-  .sa-logomark { padding: 80px 0 !important; }
+
+  /* These blocks aren't the first section on their page, so they don't need
+     the full fixed-header offset — mobile only, desktop untouched */
+  .sa-repeat-content { padding-top: 64px; }
+
+  /* Redefine the large section-gap scale for mobile — every element using
+     var(--gap-*) below automatically scales down, while elements
+     deliberately set to 0 (tight to their caption) are untouched */
+  :root {
+    --gap-3xl: 56px;
+    --gap-2xl: 48px;
+    --gap-xl: 48px;
+    --gap-lg: 40px;
+    --gap-md: 40px;
+    --gap-caption-end: 32px;
+  }
 }
 
 /* ---------- OTHER PROJECTS GRID ---------- */
@@ -438,7 +467,7 @@ body.on-inner .floating-back {
   display: grid;
   grid-template-columns: 450fr 563fr;
   gap: 48px;
-  margin-bottom: 250px;
+  margin-bottom: var(--gap-3xl);
 }
 
 .op-intro-title {
@@ -693,6 +722,29 @@ body.on-inner .floating-back {
   margin-top: 24px;
   border-top: 1px solid rgba(0,0,0,0.15);
   padding-top: 24px;
+}
+
+.about-skills-line {
+  grid-template-columns: 1fr;
+}
+
+.about-skills-list {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.7;
+  max-width: 480px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-skills-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.about-skills-list li:last-child {
+  border-bottom: none;
 }
 
 .about-skill-heading {
